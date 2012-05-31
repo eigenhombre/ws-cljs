@@ -15,8 +15,8 @@
   (let [logger (goog.debug.Logger/getLogger (name category))]
     (.warning logger msg)))
 
-(defn debug [categoty msg]
-  (let [logger (goog.debug.Logger/getLogger (name categoty))]
+(defn debug [category msg]
+  (let [logger (goog.debug.Logger/getLogger (name category))]
     (.fine logger msg)))
 
 (defn init [id]
